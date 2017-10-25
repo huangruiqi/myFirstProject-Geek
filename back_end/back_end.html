@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Geek后台管理</title>
+	<link rel="stylesheet" type="text/css" href="css/back_end.css">
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/back_end.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<div class="container1">
+		<div class="meau">
+			<img class="logo" src="images/logo.png">
+			<ul class="nav">
+				<li class="nav1">
+					<a href="#main1">
+						首页
+					</a>
+				</li>
+				<li>
+					<a href="#main2">
+						成员展示
+					</a>
+				</li>
+				<li>
+					<a href="#main3">
+						成果展示
+					</a>
+				</li>
+				<li>
+					<a href="#main4">
+						毕业去向
+					</a>
+				</li>
+				<li>
+					<a href="#main5">
+						加入我们
+					</a>
+				</li>
+			</ul>	
+		</div>
+		<div class="contant1" id="main1">
+			<img class="title" src="images/title.png">
+			<p class="main1_title">首页图片编辑</p>
+			<ul class="scroll_photo">
+				<li>
+					<form id="scroll_form" enctype="multipart/form-data">
+						<input type="text" name="no" value='1' class="text">
+						<input type="file" name="photo" class="inp">
+					</form>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img class="close" src="images/close.png">
+					<img name="photoa" class="photo" src="images/none.gif">
+					<p>1图</p>
+				</li>
+				<li>
+					<form id="scroll_form" enctype="multipart/form-data">
+						<input type="text" name="no" value='2' class="text">
+						<input type="file" name="photo" class="inp">
+					</form>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img class="close" src="images/close.png">
+					<img name="photoa" class="photo" src="images/none.gif">
+					<p>2图</p>
+				</li>
+				<li>
+					<form id="scroll_form" enctype="multipart/form-data">
+						<input type="text" name="no" value='3' class="text">
+						<input type="file" name="photo" class="inp">
+					</form>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img class="close" src="images/close.png">
+					<img class="photo" src="images/none.gif">
+					<p>主图</p>
+				</li>
+				<li>
+					<form id="scroll_form" enctype="multipart/form-data">
+						<input type="text" name="no" value='4' class="text">
+						<input type="file" name="photo" class="inp">
+					</form>
+					<input type="file" name="uploadphoto1" class="inp">
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img class="close" src="images/close.png">
+					<img class="photo" src="images/none.gif">
+					<p>3图</p>
+				</li>
+				<li>
+					<form id="scroll_form" enctype="multipart/form-data">
+						<input type="text" name="no" value='5' class="text">
+						<input type="file" name="photo" class="inp">
+					</form>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img class="close" src="images/close.png">
+					<img class="photo" src="images/none.gif">
+					<p>4图</p>
+				</li>
+			</ul>
+
+			<a href="javascript:void(0)">
+				<img class="addin" src="images/addin.png">
+			</a>
+			<input class="addinphoto" type="file" name="addinphoto" class="inp">
+		</div>
+	</div>
+	<div class="container2" id="main2">
+		<div class="contant2">
+			<img class="title" src="images/title.png">
+			<p class="main2_title">成员展示图片文字编辑
+			</p>
+			<ul class="member">
+				<li>
+					<form id="member_form" enctype="multipart/form-data">
+						<input type="text" name="memberNo" value=1 class="text">
+						<input type="file" name="memberPhoto" class="inp">
+					</form>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img src="images/none.gif">
+				</li>
+				<li>
+					<form id="member_form" enctype="multipart/form-data">
+						<input type="text" name="memberNo" value=2 class="text">
+						<input type="file" name="memberPhoto" class="inp">
+					</form>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img src="images/none.gif">
+				</li>
+				<li>
+					<form id="member_form" enctype="multipart/form-data">
+						<input type="text" name="memberNo" value=3 class="text">
+						<input type="file" 	name="memberPhoto" class="inp">
+					</form>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img src="images/none.gif">
+				</li>
+				<li>
+					<form id="member_form" enctype="multipart/form-data">
+						<input type="text" name="memberNo" value=4 class="text">
+						<input type="file" name="memberPhoto" class="inp">
+					</form>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img src="images/none.gif">
+				</li>
+			</ul>
+			<ul class="introduce">
+				<li>
+					<div class="introduce_word">						
+					</div>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<textarea></textarea>
+				</li>
+				<li>
+					<div class="introduce_word">
+					</div>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<textarea></textarea>
+				</li>
+				<li>
+					<div class="introduce_word">						
+					</div>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<textarea></textarea>
+				</li>
+				<li>
+					<div class="introduce_word">						
+					</div>
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<textarea></textarea>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container3" id="main3">
+		<div class="content3">
+			<img class="title" src="images/title.png">
+			<p class="main3_title">
+			成果展示图片编辑
+			</p>
+			<ul class="work_wrapper">
+				<li class="work_first">
+					
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<form id="wrok_form" enctype="multipart/form-data">
+						<input type="text" name="achNo" value="1" class="text">
+						<input type="file" name="achPhoto" class="inp">
+					</form>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img src="images/none.gif">
+				</li>
+				<li>
+					
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<form id="wrok_form" enctype="multipart/form-data">
+						<input type="text" name="achNo" value="2" class="text">
+						<input type="file" name="achPhoto" class="inp">
+					</form>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img src="images/none.gif">
+				</li>
+				<li>
+					
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<form id="wrok_form" enctype="multipart/form-data">
+						<input type="text" naem="achNo" value="3" class="text">
+						<input type="file" name="achPhoto" class="inp">
+					</form>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					<img src="images/none.gif">
+				</li>
+				<li>
+					
+					<img src="images/none.gif">
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<form id="wrok_form" enctype="multipart/form-data">
+						<input type="text" naem="achNo" value="4" class="text">
+						<input type="file" name="achPhoto" class="inp">
+					</form>
+
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					
+				</li>
+				<li>
+					
+					<img src="images/none.gif">
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<form id="wrok_form" enctype="multipart/form-data">
+						<input type="text" naem="achNo" value="5" class="text">
+						<input type="file" name="achPhoto" class="inp">
+					</form>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					
+				</li>
+				<li>
+					
+					<img src="images/none.gif">
+					
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<form id="wrok_form" enctype="multipart/form-data">
+						<input type="text" name="achNo" value="6" class="text">
+						<input type="file" name="achPhoto" class="inp">
+					</form>
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					
+				</li>
+				<li>
+					<img src="images/none.gif">
+					<div class="editor">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 编辑
+						</a>				
+					</div>
+					<form id="wrok_form" enctype="multipart/form-data">
+						<input type="text" name="achNo" value="7" class="text">
+						<input type="file" name="achPhoto" class="inp">
+					</form>
+				
+					<div class="save">
+						<a href="javascript:void(0)">
+							&emsp;&nbsp; 保存
+						</a>				
+					</div>
+					
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container4" id="main4">
+		<div class="content4">
+			<!-- <img class="title" src="images/title.png"> -->
+			<p class="main4_title">
+			毕业去向文字编辑
+			</p>
+			<div class="graduate_left">
+				<a href="javascript:;">
+					<span>
+						<
+					</span>
+				</a>
+			</div>
+			<ul class="graduate_year">
+				<li>
+					<a href="javascript:void(0)">2010</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">2011</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">2012</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">2013</a>
+				</li>			
+			</ul>
+			<ul class="graduate_work">
+				<span>
+					Graduation whereabouts
+				</span>
+				<li>
+				<div class="use">
+				</div>
+				</li>
+				<li>
+				<div class="use">
+				</div>
+				</li>
+				<li>
+				<div class="use">
+				</div>
+				</li>
+				<li>
+				<div class="use">
+				</div>
+				</li>
+			</ul>
+			<div class="operation">
+				<div class="editor">
+					<a href="javascript:void(0)">
+						&emsp;&nbsp; 编辑
+					</a>				
+				</div>
+				<div class="save">
+					<a href="javascript:void(0)">
+						&emsp;&nbsp; 保存
+					</a>				
+				</div>
+			</div>
+			<div class="graduate_right">
+				<a href="javascript:;">
+					<span>
+						>
+					</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="container5" id="main5">
+		<div class="content5">
+			<img class="title" src="images/title.png">
+			<p class="main5_title">
+				加入我们信息汇总
+			</p>
+			<div class="tab">
+        		<div class="table" >
+        		</div>
+	        	<div class="page">
+	          		<a href="javascript:()" id="first"> 
+	            		首页
+	          		</a>
+	          		<a href="javascript:()" id="last">  
+	            		前一页
+	          		</a>
+	          		<a href="javascript:()" id="next">
+	            		后一页
+	   
+	          		<a href="javascript:()" id="end">
+	            		尾页
+	          		</a>
+	          		<input type="text" id="num">
+	          		<label>
+	            		页
+	          		</label>
+		          	<button id="change_num">
+		            	跳转
+		          	</button>
+	        	</div> 
+  			</div>
+  		</div>
+  	</div>
+</div>
+</body>
+</html>
